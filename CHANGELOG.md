@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.9.0](https://github.com/open-meteo/open-meteo/compare/1.8.0...1.9.0) (2026-11-10)
+
+
+### Features
+
+* GOES-19 satellite shortwave radiation integration ([#2298](https://github.com/open-meteo/open-meteo/issues/2298)) ([c0d2f3e](https://github.com/open-meteo/open-meteo/commit/c0d2f3eac3650203a1bf4dc515d903642852afb0))
+
+
+### Bug Fixes
+
+* bump the swift-dependencies group across 1 directory with 15 updates ([#2311](https://github.com/open-meteo/open-meteo/issues/2311)) ([d9b5a06](https://github.com/open-meteo/open-meteo/commit/d9b5a067edbe6a48af51f859c72035475e44308f))
+* gem_hrdps_west snowfall reads SDWE (snowpack) instead of WEASN ([#2295](https://github.com/open-meteo/open-meteo/issues/2295)) ([396cdd4](https://github.com/open-meteo/open-meteo/commit/396cdd4e60ee023a441ea30cca38a83c18da57e3))
+* reject start and end dates with a day that does not exist in the month ([#2296](https://github.com/open-meteo/open-meteo/issues/2296)) ([cdbb18d](https://github.com/open-meteo/open-meteo/commit/cdbb18d054a0be0c5bf20f0e86857eec3b77a348))
+* Remove GeoSphere AROME Austria from `geosphere_seamless` ([#2313](https://github.com/open-meteo/open-meteo/issues/2313)) ([e7b08a4](https://github.com/open-meteo/open-meteo/commit/e7b08a43faa1de470ffdad8577b402f6f517357d))
+* **sarah-3:** Use forward timestamps similar to DWD SIS ([#2301](https://github.com/open-meteo/open-meteo/issues/2301)) ([4e602cc](https://github.com/open-meteo/open-meteo/commit/4e602ccddf8e4e519855aac02ed402261800512a))
+* use madv random for atomic block cache ([#2303](https://github.com/open-meteo/open-meteo/issues/2303)) ([97132c5](https://github.com/open-meteo/open-meteo/commit/97132c51bbb138c0041ebbbe6570e4140943eb03))
+* Use N+3 lookahead prefetch for multi location queries ([#2307](https://github.com/open-meteo/open-meteo/issues/2307)) ([e0e7fd5](https://github.com/open-meteo/open-meteo/commit/e0e7fd5c706e4a5d1df71b6ce15d0f60e3ddcc96))
+
 ## [1.8.0](https://github.com/open-meteo/open-meteo/compare/1.7.0...1.8.0) (2026-11-03)
 
 
